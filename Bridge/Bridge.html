@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bridge.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=inter:wght@300;400;500;600;700;800&family=poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <title>TalentBridge - Login</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="../Landing/index.html" class="logo-section">
+                <span class="brand-name">TalentBridge</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- LOGIN SECTION -->
+    <section class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <h1>Welcome Back</h1>
+                <p>Login to access your profile and opportunities</p>
+            </div>
+
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-footer">
+                    <label class="remember-me">
+                        <input type="checkbox" name="remember">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-login">Sign In</button>
+            </form>
+
+            <div class="divider">
+                <span>Or continue with</span>
+            </div>
+
+            <div class="social-login">
+                <button class="social-btn" title="Login with Google">
+                    <i class="fab fa-google"></i>
+                </button>
+                <button class="social-btn" title="Login with GitHub">
+                    <i class="fab fa-github"></i>
+                </button>
+                <button class="social-btn" title="Login with LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </button>
+            </div>
+
+            <div class="signup-footer">
+                <p>Don't have an account? <a href="#" class="signup-link">Sign up here</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
